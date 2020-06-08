@@ -1,0 +1,27 @@
+img srcをURLからダウンロードしたファイルに変更
+
+インベーダーのバリア除去
+※画像の背景をWeb上で透明化
+    https://www.peko-step.com/tool/alphachannel.html
+
+グーチョキパーの文字を少し小さく
+
+グー、チョキ、パーのボタンを押した時の処理が同じ
+だったので、一括で処理
+
+レーザーが出る場所を一箇所にしてクラスの付け外しで
+レーザーのレベルが変化する
+
+上下矢印キーで斜めに移動
+--->>>#playerのdivの幅と高さをimgと揃えて解消
+
+
+
+矢印キーでの画像の移動
+    https://original-game.com/introduction-to-javascript-move-a-character-by-input/
+
+
+
+>>>>>>>>個人的参照サイト<<<<<<<<
+キーコード一覧
+    http://faq.creasus.net/04/0131/CharCode.html

@@ -1,0 +1,72 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>インベーダーゲーム</title>
+    <link rel="stylesheet" href="kadai.css" />
+  </head>
+
+  <body id="shot">
+    <!-- 戦闘機とレーザービーム -->
+    <div id="player">
+      <img src="image/fighter.png"" alt="戦闘機">
+
+      <div class="laser" id="laser"></div>
+    </div>
+
+    <div id="invader">
+      <img src="image/invader.png" alt="インベーダー" class="invader" />
+    </div>
+
+    <div id="invader2">
+      <img src="image/invader.png" alt="インベーダー" class="invader2" />
+      <img src="image/invader.png" alt="インベーダー" class="invader3" />
+    </div>
+
+    <div id="invader3">
+      <img src="image/invader.png" alt="インベーダー" class="invader4" />
+      <img src="image/invader.png" alt="インベーダー" class="invader5" />
+    </div>
+
+    <div id="invader4">
+      <img src="image/invader.png" alt="インベーダー" class="invader" />
+      <img src="image/invader.png" alt="インベーダー" class="invader2" />
+      <img src="image/invader.png" alt="インベーダー" class="invader3" />
+      <img src="image/invader.png" alt="インベーダー" class="invader6" />
+      <img src="image/invader.png" alt="インベーダー" class="invader5" />
+    </div>
+
+    <!-- ジャンケンボタン(グー・チョキ・パー) -->
+    <div class="janken" id="janken">
+      <span>
+        <!-- <input type="button" value="グー" id="gu" />
+        <input type="button" value="チョキ" id="choki" />
+        <input type="button" value="パー" id="pa" /> -->
+        <button type="button" id="gu" value="0">グー</button>
+        <button type="button" id="choki" value="1">チョキ</button>
+        <button type="button" id="pa" value="2">パー</button>
+      </span>
+
+      <!-- 結果表示(相手の手) -->
+      <div id="result">相手の手は？</div>
+      ↑ <br />
+      相手の手 <br />
+      <br />
+      <div id="result2">結果は？</div>
+    </div>
+
+    <!-- スタートボタン -->
+    <div class="center">
+      <h1 class="title">
+        インベーダー <br />
+        ＧＡＭＥ
+      </h1>
+      <div class="start-btn">
+        <input type="button" value="START" id="startbtn" />
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- 戦闘機が動く為のjs読み込み用 -->
+    <script type="text/javascript" src="kadai.js"></script>
+  </body>
+</html>
